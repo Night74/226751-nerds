@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Антон Воронин](https://up.htmlacademy.ru/htmlcss/17/user/226751).
-* Наставник: `Михаил Поданев`(https://htmlacademy.ru/profile/mpodanev).
+* Наставник: [Михаил Поданев](https://htmlacademy.ru/profile/mpodanev).
 
 ---
 
