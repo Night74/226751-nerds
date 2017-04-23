@@ -1,0 +1,18 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(40, 49, 54);
+    font-weight: normal;
+}
+
+.title {
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 24px;
+}
