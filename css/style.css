@@ -16,3 +16,250 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1160px;
+    padding: 0 20px;
+    margin: 0 auto;
+/*    background: #c79e9e;*/
+}
+
+/* --------Стили главной страницы----------- */
+/*Шапка сайта*/
+
+.main-header {   
+    background: #eee;
+}
+
+.main-header .logo {
+    width: 160px;
+    height: 65px;
+    float: left;
+    margin-right: 200px;
+}
+
+.main-header .main-nav {
+    float: left;
+    width: 600px;
+}
+
+.main-header .basket {
+    width: 160px;
+    float: right;
+}
+
+/*Основное содержимое сайта*/
+
+.main-page .content {
+    background: #eee;
+}
+
+.main-page .content-left {
+    float: left;
+    width: 400px;
+}
+
+.main-page .slider {
+    float: right;
+    width: 712px;
+    height: 413px;
+}
+
+.main-page .services {
+    background: #b3f2c9;
+}
+
+.main-page .services .container {
+    border-bottom: 2px solid gray;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.services .item {
+    float: left;
+    width: 300px;
+    margin-right: 100px;
+}
+
+.services .item:last-child {
+    margin-right: 0;
+}
+
+.aboutus {
+    padding-top: 73px;
+    padding-bottom: 76px;
+    padding-top: 73px;
+    background: #b3f2c9;
+}
+
+.aboutus .content-left {
+    width: 660px;
+    float: left;
+}
+
+.aboutus .content-right {
+    float: right;
+    width: 360px;
+}
+
+.main-page .links .link-item {
+    float: left;
+    width: 290px;
+    text-align: center;
+}
+
+.main-page .links .link-item:last-child {
+    margin-right: 0;
+}
+
+.main-page .links {
+    background: #b3f2c9;   
+}
+
+.main-page .links .container {
+    padding-top: 46px;
+    padding-bottom: 44px;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+}
+
+/*Подвал сайта*/
+
+.main-footer {
+    background: #b3f2c9;
+}
+
+.main-footer .map {
+    margin: 0 auto;
+    width: 1440px;
+    height: 416px
+}
+
+.main-footer .site-map {
+    padding-top: 80px;
+}
+
+.main-footer .content {
+    
+}
+
+.main-footer .footer-links {
+    float: left;
+    width: 260px;
+}
+
+.main-footer .footer-discount {
+    float: right;
+    width: 557px;
+}
+
+/* --------Стили страницы Магазина----------- */
+
+/*Стили хедера*/
+
+.shop-header {
+    background: #eee;
+}
+
+.shop-header .logo {
+    float: left;
+    width: 160px;
+    height: 65px;
+}
+
+.shop-header .shop-nav {
+    float: left;
+    width: 540px;
+}
+
+.shop-header .basket {
+    float: right;
+}
+
+.shop-page .page-name {
+    background: #eee;
+    padding-bottom: 104px;
+    padding-top: 104px;
+}
+
+.shop-page .title {
+    margin: 0 auto;
+    width: 725px;
+}
+
+.shop-page .content-left {
+    float: left;
+}
+
+.shop-page .content-right {
+    float: left;
+    width: 760px;
+}
+
+.shop-page .content {
+    background: lightgreen;
+    padding-top: 60px;
+}
+
+.shop-page .sorting {
+    float: right;
+}
+
+.shop-page .site-templates .sedona {
+    float: left;
+    margin-right: 40px;
+    width: 360px;
+}
+
+.shop-page .site-templates .pink {
+    float: left;
+    width: 360px;
+}
+
+.shop-page .site-templates .barbershop {
+    float: left;
+    margin-right: 40px;
+    width: 360px;
+}
+
+.shop-page .site-templates .mishka {
+    float: left;
+    width: 360px;
+}
+
+.shop-page .site-templates .aplus {
+    float: left;
+    margin-right: 40px;
+    width: 360px;
+}
+
+.shop-page .site-templates .kvast {
+    float: left;
+    width: 360px;
+}
+
+/*Стили подвала Магазина*/
+
+.shop-footer {
+    background: lightgreen;
+}
+
+.map {
+    margin: 0 auto;
+    width: 1440px;
+    height: 416px;
+}
+
+.shop-footer .links {
+    float: left;
+}
+
+.shop-footer .discount {
+    float: right;
+}
